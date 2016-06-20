@@ -20,17 +20,18 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 
 #: inc/admin-actions.php:64
+#, fuzzy
 msgid "Theme Defined Layouts"
-msgstr ""
+msgstr "Layouts definidos pelo tema"
 
 #: inc/admin-actions.php:86 tpl/js-templates.php:362
 msgid "Layouts Directory"
 msgstr "Directório de layouts"
 
 #: inc/admin-actions.php:114
-#, php-format
+#, fuzzy, php-format
 msgid "Clone %s"
-msgstr ""
+msgstr "Clonar %s"
 
 #: inc/admin-actions.php:153
 msgid " - Results For:"
@@ -57,7 +58,6 @@ msgid "Cell Class"
 msgstr "Classe da célula"
 
 #: inc/default-styles.php:63
-#, fuzzy
 msgid "Class added to all cells in this row."
 msgstr "Classe adicionada a todas as células desta linha."
 
@@ -67,7 +67,7 @@ msgstr "Estilos CSS"
 
 #: inc/default-styles.php:71 inc/default-styles.php:183
 msgid "One style attribute per line."
-msgstr ""
+msgstr "Um atributo de estilo por linha."
 
 #: inc/default-styles.php:78
 msgid "Bottom Margin"
@@ -76,12 +76,11 @@ msgstr "Margem inferior"
 #: inc/default-styles.php:81
 #, php-format
 msgid "Space below the row. Default is %spx."
-msgstr ""
+msgstr "Espaço abaixo da linha. Por omissão é %spx."
 
 #: inc/default-styles.php:86
-#, fuzzy
 msgid "Gutter"
-msgstr "Gutter"
+msgstr "Espaço entre colunas"
 
 #: inc/default-styles.php:89
 #, php-format
@@ -93,18 +92,16 @@ msgid "Padding"
 msgstr "Espaçamento"
 
 #: inc/default-styles.php:97
-#, fuzzy
 msgid "Padding around the entire row."
-msgstr "Preenchimento em torno de toda a linha."
+msgstr "Espaçamento à volta de todo a linha."
 
 #: inc/default-styles.php:103
 msgid "Row Layout"
 msgstr "Layout da linha"
 
 #: inc/default-styles.php:107
-#, fuzzy
 msgid "Standard"
-msgstr "Padrão"
+msgstr "Por omissão"
 
 #: inc/default-styles.php:108
 #, fuzzy
@@ -152,12 +149,12 @@ msgstr "Imagem de fundo da linha."
 #: inc/default-styles.php:145 inc/default-styles.php:215
 #, fuzzy
 msgid "Background Image Display"
-msgstr "Exibição do background"
+msgstr "Mostrar imagem de fundo"
 
 #: inc/default-styles.php:149 inc/default-styles.php:219
 #, fuzzy
 msgid "Tiled Image"
-msgstr "Tiled image"
+msgstr "Imagem repetida"
 
 #: inc/default-styles.php:150 inc/default-styles.php:220
 #, fuzzy
@@ -194,9 +191,8 @@ msgid "Widget Class"
 msgstr "Classe do widget"
 
 #: inc/default-styles.php:191
-#, fuzzy
 msgid "Padding around the entire widget."
-msgstr "Preenchimento ao redor de todo o widget."
+msgstr "Espaçamento à volta de todo o widget."
 
 #: inc/default-styles.php:202
 msgid "Background color of the widget."
@@ -227,7 +223,6 @@ msgid "Color of links inside this widget."
 msgstr "Cor das ligações dentro deste widget."
 
 #: inc/plugin-activation.php:7 inc/plugin-activation.php:8
-#, fuzzy
 msgid "Install Page Builder Plugin"
 msgstr "Instalar plugin Page Builder"
 
@@ -278,98 +273,86 @@ msgstr "Activado"
 
 #: inc/widgets-bundle.php:7
 msgid "SiteOrigin Editor"
-msgstr ""
+msgstr "Editor do SiteOrigin"
 
 #: inc/widgets-bundle.php:8
 msgid "A rich text editor"
-msgstr ""
+msgstr "Um editor de rich text"
 
 #: inc/widgets-bundle.php:11 inc/widgets-bundle.php:23
 #: inc/widgets-bundle.php:35 inc/widgets-bundle.php:47
 #: inc/widgets-bundle.php:59 inc/widgets-bundle.php:71 inc/widgets.php:106
-#, fuzzy
 msgid "SiteOrigin Widgets Bundle"
-msgstr "SiteOrigin Widgets Bundle"
+msgstr "Conjunto de widgets do SiteOrigin"
 
 #: inc/widgets-bundle.php:19
-#, fuzzy
 msgid "SiteOrigin Button"
-msgstr "SiteOrigin Botão"
+msgstr "Botão do SiteOrigin"
 
 #: inc/widgets-bundle.php:20 widgets/widgets/button/button.php:8
 msgid "A simple button"
 msgstr "Um botão simples"
 
 #: inc/widgets-bundle.php:31
-#, fuzzy
 msgid "SiteOrigin Image"
-msgstr "SiteOrigin Imagem"
+msgstr "Imagem do SiteOrigin"
 
 #: inc/widgets-bundle.php:32
-#, fuzzy
 msgid "Choose images from your media library."
-msgstr "Escolha imagens de sua biblioteca de mídia."
+msgstr "Escolher imagens da sua biblioteca multimédia."
 
 #: inc/widgets-bundle.php:43
-#, fuzzy
 msgid "SiteOrigin Slider"
-msgstr "SiteOrigin Slider"
+msgstr "Slider do SiteOrigin"
 
 #: inc/widgets-bundle.php:44
-#, fuzzy
 msgid "A basic slider widget."
-msgstr "Um básico widget slider."
+msgstr "Um widget slider básico."
 
 #: inc/widgets-bundle.php:55
 #, fuzzy
 msgid "SiteOrigin Features"
-msgstr "SiteOrigin Features"
+msgstr "Funcionalidades do SiteOrigin"
 
 #: inc/widgets-bundle.php:56
 #, fuzzy
 msgid "Display site features as a collection of icons."
-msgstr "Exibe recursos do site como uma coleção de ícones."
+msgstr "Mostra as funcionalidades do site como uma coleção de ícones."
 
 #: inc/widgets-bundle.php:67
 #, fuzzy
 msgid "SiteOrigin Post Carousel"
-msgstr "SiteOrigin Posts Carousel"
+msgstr "Carrocel de artigos do SiteOrigin"
 
 #: inc/widgets-bundle.php:68
 #, fuzzy
 msgid "Display your posts as a carousel."
-msgstr "Exibe seus posts como um carrousel."
+msgstr "Mostra os seus artigos como um carrocel."
 
 #: inc/widgets.php:84
-#, fuzzy
 msgid "Widgets Bundle"
-msgstr "Widgets Bundle"
+msgstr "Conjunto de widgets"
 
 #: inc/widgets.php:99
-#, fuzzy
 msgid "Enable more widgets in the 1{Widgets Bundle settings}."
-msgstr "Ativar mais widgets em 1{Widgets Bundle settings}."
+msgstr "Activar mais widgets nas 1{definições do Conjunto de widgets}."
 
 #: inc/widgets.php:107
-#, fuzzy
 msgid "Install the 1{Widgets Bundle} to get extra widgets."
-msgstr "Instale o 1{Widgets Bundle} para obter os widgets extras."
+msgstr "Instale o 1{Connjunto de widgets} para obter widgets extra."
 
 #: inc/widgets.php:112
 msgid "Page Builder Widgets"
 msgstr "Widgets do Page Builder"
 
 #: inc/widgets.php:120
-#, fuzzy
 msgid "You can enable the legacy (PB) widgets in the 1{Page Builder settings}."
 msgstr ""
-"Você pode ativar os widgets legado (PB) nas configurações 1{Page Builder "
-"settings}."
+"Pode activar os antigos widgets (PB) nas 1{Definições do Page Builder}."
 
 #: inc/widgets.php:128
-#, fuzzy
 msgid "WordPress Widgets"
-msgstr "WordPress Widgets"
+msgstr "Widgets do WordPress"
 
 #: inc/widgets.php:138
 msgid "WooCommerce"
@@ -438,7 +421,7 @@ msgstr "Widgets"
 #: settings/settings.php:244
 #, fuzzy
 msgid "Widget Title HTML"
-msgstr "Widget Título HTML"
+msgstr "HTML do widget de título"
 
 #: settings/settings.php:245
 #, fuzzy
@@ -459,9 +442,8 @@ msgid ""
 msgstr ""
 
 #: settings/settings.php:256
-#, fuzzy
 msgid "Legacy Bundled Widgets"
-msgstr "Legacy Bundled Widgets"
+msgstr "Antigo conjunto de widgets"
 
 #: settings/settings.php:257
 #, fuzzy
@@ -488,8 +470,9 @@ msgid "Use Tablet Layout"
 msgstr "Usar layout de tablet"
 
 #: settings/settings.php:284
+#, fuzzy
 msgid "Collapses columns differently on tablet devices."
-msgstr ""
+msgstr "Minimiza colunas de modo diferente em tablets."
 
 #: settings/settings.php:290
 msgid "Tablet Width"
@@ -500,9 +483,8 @@ msgid "Device width, in pixels, to collapse into a tablet view ."
 msgstr ""
 
 #: settings/settings.php:297
-#, fuzzy
 msgid "Mobile Width"
-msgstr "Largura mobile"
+msgstr "Largura de mobile"
 
 #: settings/settings.php:298
 #, fuzzy
@@ -515,27 +497,25 @@ msgid "Row Bottom Margin"
 msgstr "Margem inferior da linha"
 
 #: settings/settings.php:305
-#, fuzzy
 msgid "Default margin below rows."
-msgstr "Margem padrão abaixo das linhas."
+msgstr "Margem por omissão abaixo das linhas."
 
 #: settings/settings.php:310
 msgid "Last Row With Margin"
-msgstr ""
+msgstr "Última linha com margem"
 
 #: settings/settings.php:311
 msgid "Allow margin in last row."
 msgstr "Permitir margem na última linha."
 
 #: settings/settings.php:317
-#, fuzzy
 msgid "Row Gutter"
-msgstr "Espaçamento linhas"
+msgstr "Espaço entre linhas"
 
 #: settings/settings.php:318
 #, fuzzy
 msgid "Default spacing between columns in each row."
-msgstr "Espaçamento padrão entre as colunas em cada linha."
+msgstr "Espaço por omissão entre colunas em cada linha."
 
 #: settings/settings.php:324
 #, fuzzy
@@ -556,17 +536,16 @@ msgid "Copy Content"
 msgstr "Copiar conteúdo"
 
 #: settings/settings.php:339
-#, fuzzy
 msgid "Copy content from Page Builder to post content."
-msgstr "Copiar conteúdo do Page Builder para o conteúdo do post."
+msgstr "Copiar conteúdo do Page Builder para o conteúdo do artigo."
 
 #: settings/tpl/help.php:6
 #, fuzzy
 msgid ""
 "Please read the 1{settings guide} of the Page Builder documentation for help."
 msgstr ""
-"Por favor, leia o 1{settings guide} da documentação Page Builder para obter "
-"ajuda."
+"Por favor, leia o 1{guia de definições} da documentação do Page Builder para "
+"obter ajuda."
 
 #: settings/tpl/settings.php:12
 msgid "Search Settings"
@@ -598,9 +577,8 @@ msgid "Missing Widget"
 msgstr "Widgets em falta"
 
 #: siteorigin-panels.php:314
-#, fuzzy
 msgid "Page Builder doesn't know about this widget."
-msgstr "O Page Builder não sabe sobre este widget."
+msgstr "O Page Builder não conhece este widget."
 
 #: siteorigin-panels.php:318
 #, php-format
@@ -655,7 +633,7 @@ msgstr "Versão restaurada"
 
 #: siteorigin-panels.php:340
 msgid "Converted to editor"
-msgstr ""
+msgstr "Convertido para o editor"
 
 #: siteorigin-panels.php:344
 msgid "Widget deleted"
@@ -702,42 +680,36 @@ msgid "Cell resized"
 msgstr "Célula redimensionada"
 
 #: siteorigin-panels.php:370
-#, fuzzy
 msgid "Prebuilt layout loaded"
-msgstr "Layout pré construído carregado"
+msgstr "Layout pré-construído carregado"
 
 #: siteorigin-panels.php:374
-#, fuzzy
 msgid "Loading prebuilt layout"
-msgstr "Carregando layout pré construído"
+msgstr "A carregar layout pré-construído"
 
 #: siteorigin-panels.php:375
-#, fuzzy
 msgid "Would you like to copy this editor's existing content to Page Builder?"
 msgstr ""
-"Você gostaria de copiar o conteúdo existente deste editor para o Page "
-"Builder?"
+"Gostaria de copiar o conteúdo existente deste editor para o Page Builder?"
 
 #: siteorigin-panels.php:376
-#, fuzzy
 msgid ""
 "Would you like to clear your Page Builder content and revert to using the "
 "standard visual editor?"
 msgstr ""
-"Gostaria de limpar o seu conteúdo Page Builder e voltar a usar o editor "
-"visual padrão?"
+"Gostaria de limpar o seu conteúdo do Page Builder e voltar a usar o editor "
+"por omissão?"
 
 #: siteorigin-panels.php:378
-#, fuzzy
 msgid "Layout Builder Widget"
-msgstr "Widget Layout Builder"
+msgstr "Widget de construção de layout"
 
 #: siteorigin-panels.php:380 tpl/js-templates.php:89 tpl/js-templates.php:387
 msgid "Are you sure?"
 msgstr "Tem a certeza?"
 
 #: siteorigin-panels.php:382
-#, fuzzy, php-format
+#, php-format
 msgid "%s is ready to insert."
 msgstr "%s está pronto para inserir."
 
@@ -762,8 +734,9 @@ msgid "Column"
 msgstr "Coluna"
 
 #: siteorigin-panels.php:393
+#, fuzzy
 msgid "Widget Actions"
-msgstr ""
+msgstr "Acções do widget"
 
 #: siteorigin-panels.php:394
 msgid "Edit Widget"
@@ -778,8 +751,9 @@ msgid "Delete Widget"
 msgstr "Eliminar widget"
 
 #: siteorigin-panels.php:398
+#, fuzzy
 msgid "Row Actions"
-msgstr ""
+msgstr "Acções da linha"
 
 #: siteorigin-panels.php:399 tpl/js-templates.php:87 tpl/js-templates.php:260
 msgid "Edit Row"
@@ -818,28 +792,26 @@ msgid "Edit Home Page"
 msgstr "Editar página inicial"
 
 #: siteorigin-panels.php:1385
-#, fuzzy, php-format
+#, php-format
 msgid "You need to install 1{%1$s} to use the widget 2{%2$s}."
-msgstr "Você precisa instalar um 1{%1$s} para usar o widget 2{%2$s}."
+msgstr "Tem que instalar o 1{%1$s} para usar o widget 2{%2$s}."
 
 #: siteorigin-panels.php:1391
-#, fuzzy
 msgid ""
 "Save and reload this page to start using the widget after you've installed "
 "it."
 msgstr ""
-"Salve e recarregue a página para começar a usar o widget depois que você o "
-"instalou."
+"Guarde e recarregue a página para começar a usar o widget, depois de o ter "
+"instalado."
 
 #: siteorigin-panels.php:1408
-#, fuzzy, php-format
+#, php-format
 msgid ""
 "The widget 1{%1$s} is not available. Please try locate and install the "
 "missing plugin. Post on the 2{support forums} if you need help."
 msgstr ""
-"O Widget de 1{%1$s} não está disponível. Por favor, tente localizar e "
-"instalar o plugin em falta. Postar nos 2{support forums} se precisar de "
-"ajuda."
+"O widget 1{%1$s} não está disponível. Por favor tente instalar o plugin em "
+"falta. Publique nos 2{fóruns de suporte} se precisar de ajuda."
 
 #: siteorigin-panels.php:1448
 msgid "Support Forum"
@@ -852,7 +824,7 @@ msgstr "Newsletter"
 #: siteorigin-panels.php:1464 tpl/js-templates.php:34 tpl/js-templates.php:36
 #, fuzzy
 msgid "Live Editor"
-msgstr "Editor Ao Vivo"
+msgstr "Editor com pré-visualização"
 
 #: tpl/admin-home-page.php:21
 #, fuzzy
@@ -870,7 +842,7 @@ msgstr "Página inicial personalizada"
 
 #: tpl/admin-home-page.php:41
 msgid "Home page updated. 1{View page}."
-msgstr "Página inicial actualizada. 1{View page}."
+msgstr "Página inicial actualizada. 1{Ver página}."
 
 #: tpl/admin-home-page.php:60
 msgid "Save Home Page"
@@ -881,38 +853,34 @@ msgid "This interface requires Javascript"
 msgstr "Esta interface requer Javascript"
 
 #: tpl/help.php:2
-#, fuzzy
 msgid ""
 "You can use SiteOrigin Page Builder to create home and sub pages, filled "
 "your own widgets."
 msgstr ""
-"Você pode usar SiteOrigin Page Builder para criar página inicial e sub-"
-"páginas, repleto de seus próprios widgets."
+"Pode usar o SiteOrigin Page Builder para criar a página inicial e as sub-"
+"páginas, com os seus próprios widgets."
 
 #: tpl/help.php:3
-#, fuzzy
 msgid "The page layouts are responsive and fully customizable."
-msgstr "Os layouts de páginas são responsivos e totalmente personalizáveis."
+msgstr "Os layouts de página são responsivos e completamente personalizáveis."
 
 #: tpl/help.php:18
-#, fuzzy
 msgid ""
 "Read the 1{full documentation} on SiteOrigin. Ask a question on our "
 "2{support forum} if you need help and sign up to 3{our newsletter} to stay "
 "up to date with future developments."
 msgstr ""
-"Leia o 1{full documentation} sobre SiteOrigin. Faz uma pergunta em nosso "
-"2{support forum} se você precisar de ajuda e assine 3{our newsletter} para "
-"se manter atualizado com os futuros desenvolvimentos."
+"Leia o 1{documentação completa} sobre o SiteOrigin. Faça uma pergunta no "
+"nosso 2{fórum de suporte} se precisar de ajuda, e subscreva a 3{nossa "
+"newsletter} para se manter actualizado sobre futuros desenvolvimentos."
 
 #: tpl/js-templates.php:12 tpl/js-templates.php:14
 msgid "Add Widget"
 msgstr "Adicionar widget"
 
 #: tpl/js-templates.php:22
-#, fuzzy
 msgid "Prebuilt Layouts"
-msgstr "Layouts Pré Construídos"
+msgstr "Layouts pré-construídos"
 
 #: tpl/js-templates.php:24
 msgid "Layouts"
@@ -931,13 +899,12 @@ msgid "Revert to Editor"
 msgstr "Reverter para o editor"
 
 #: tpl/js-templates.php:66
-#, fuzzy
 msgid ""
 "Add a 1{widget}, 2{row} or 3{prebuilt layout} to get started. Read our "
 "4{documentation} if you need help."
 msgstr ""
-"Adicionar um 1{widget}, 2{row} ou 3{prebuilt layout} para começar. Leia a "
-"nossa 4{documentation} se você precisa de ajuda."
+"Adicionar um 1{widget}, 2{linha} ou 3{layout pré-construído} para começar. "
+"Se precisar de ajuda, leia a nossa 4{documentação}."
 
 #: tpl/js-templates.php:117
 msgid "Edit"
@@ -971,22 +938,22 @@ msgstr "Adicionar nova linha"
 
 #: tpl/js-templates.php:294
 msgid "Left to Right"
-msgstr "Da esquerda para a direita"
+msgstr "da esquerda para a direita"
 
 #: tpl/js-templates.php:295
 msgid "Right to Left"
-msgstr "Da direita para a esquerda"
+msgstr "da direita para a esquerda"
 
 #: tpl/js-templates.php:306
-#, fuzzy, php-format
+#, php-format
 msgid "1{Set row layout}: %1$s columns with a ratio of %2$s going from %3$s"
 msgstr ""
-"1{Set row layout}: %1$s colunas com uma proporção de %2$s passando de %3$s"
+"1{Definir layout da linha}: %1$s colunas com proporção %2$s com orientação "
+"%3$s"
 
 #: tpl/js-templates.php:312
-#, fuzzy
 msgid "Set"
-msgstr "Fixar"
+msgstr "Definir"
 
 #: tpl/js-templates.php:331 tpl/js-templates.php:381
 msgid "Insert"
@@ -1003,7 +970,7 @@ msgstr "Pesquisar"
 #: tpl/js-templates.php:359
 #, fuzzy
 msgid "Theme Defined"
-msgstr "Tema definido"
+msgstr "Definido pelo tema"
 
 #: tpl/js-templates.php:363
 msgid "Import/Export"
@@ -1028,7 +995,7 @@ msgstr "Substituir actual"
 
 #: tpl/js-templates.php:398
 msgid "Do you want to browse the Prebuilt Layouts directory?"
-msgstr ""
+msgstr "Quer navegar no directório de layouts pré-construídos?"
 
 #: tpl/js-templates.php:399
 msgid "Enable"
@@ -1049,16 +1016,15 @@ msgstr "Seguinte"
 #: tpl/js-templates.php:451
 #, fuzzy
 msgid "Drop import file here"
-msgstr "Largar o arquivo de importação aqui"
+msgstr "Arraste para aqui o seu ficheiro de importação"
 
 #: tpl/js-templates.php:452
 msgid "Or"
 msgstr "Ou"
 
 #: tpl/js-templates.php:455
-#, fuzzy
 msgid "Select Import File"
-msgstr "Selecionar o Arquivo de Importação"
+msgstr "Seleccionar ficheiro de importação"
 
 #: tpl/js-templates.php:469
 msgid "Download Layout"
@@ -1074,32 +1040,31 @@ msgstr "Restaurar versão"
 
 #: tpl/js-templates.php:512 tpl/js-templates.php:513
 msgid "Collapse"
-msgstr ""
+msgstr "Minimizar"
 
 #: tpl/js-templates.php:512
 msgid "Expand"
-msgstr ""
+msgstr "Expandir"
 
 #: tpl/js-templates.php:520
 msgid "Toggle desktop mode"
-msgstr ""
+msgstr "Alternar modo de desktop"
 
 #: tpl/js-templates.php:523
 msgid "Toggle tablet mode"
-msgstr ""
+msgstr "Alternar modo de tablet"
 
 #: tpl/js-templates.php:526
 msgid "Toggle mobile mode"
-msgstr ""
+msgstr "Alternar modo de mobile"
 
 #: tpl/js-templates.php:565
 msgid "No Results"
 msgstr "Sem resultados"
 
 #: widgets/basic.php:13
-#, fuzzy
 msgid "Layout Builder"
-msgstr "Construtor de Layout"
+msgstr "Construtor de layout"
 
 #: widgets/basic.php:15
 #, fuzzy
@@ -1107,18 +1072,16 @@ msgid "A complete SiteOrigin Page Builder layout as a widget."
 msgstr "Um layout SiteOrigin Page Builder completo como um widget."
 
 #: widgets/basic.php:66
-#, fuzzy
 msgid "Open Builder"
-msgstr "Abrir Construtor"
+msgstr "Abrir construtor"
 
 #: widgets/basic.php:99
 msgid "Post Content"
 msgstr "Conteúdo do artigo"
 
 #: widgets/basic.php:101
-#, fuzzy
 msgid "Displays content from the current post."
-msgstr "Exibir conteúdo do post atual."
+msgstr "Mostra o conteúdo do artigo actual."
 
 #: widgets/basic.php:147 widgets/basic.php:453 widgets/widgets.php:595
 #: widgets/widgets.php:770
@@ -1140,19 +1103,16 @@ msgid "Display Content"
 msgstr "Mostrar conteúdo"
 
 #: widgets/basic.php:174
-#, fuzzy
 msgid "Post Loop"
-msgstr "Loop Post"
+msgstr "Loop de artigos"
 
 #: widgets/basic.php:176
-#, fuzzy
 msgid "Displays a post loop."
-msgstr "Exibe um loop de posts."
+msgstr "Mostra um loop de artigos."
 
 #: widgets/basic.php:375
-#, fuzzy
 msgid "Your theme doesn't have any post loops."
-msgstr "Seu tema não possui loops de posts."
+msgstr "O seu tema não tem nenhum loop de artigos."
 
 #: widgets/basic.php:385
 #, fuzzy
@@ -1162,7 +1122,7 @@ msgstr "Modelo"
 #: widgets/basic.php:401
 #, fuzzy
 msgid "More Link "
-msgstr "Link Mais␣ "
+msgstr "Link Mais "
 
 #: widgets/basic.php:403
 #, fuzzy
@@ -1205,7 +1165,7 @@ msgstr "Modificado"
 #: widgets/basic.php:460 widgets/widgets.php:602
 #, fuzzy
 msgid "Parent"
-msgstr "Parente"
+msgstr "Superior"
 
 #: widgets/basic.php:461 widgets/widgets.php:603
 msgid "Random"
@@ -1214,7 +1174,7 @@ msgstr "Aleatório"
 #: widgets/basic.php:462 widgets/widgets.php:604
 #, fuzzy
 msgid "Comment Count"
-msgstr "Contagem de comentário"
+msgstr "Contagem de comentários"
 
 #: widgets/basic.php:463 widgets/widgets.php:605
 #, fuzzy
@@ -1243,19 +1203,16 @@ msgid "Sticky Posts"
 msgstr "Artigos fixos"
 
 #: widgets/basic.php:480 widgets/widgets.php:623
-#, fuzzy
 msgid "Ignore Sticky"
-msgstr "Ignorar Fixado"
+msgstr "Ignorar fixos"
 
 #: widgets/basic.php:481 widgets/widgets.php:624
-#, fuzzy
 msgid "Exclude Sticky"
-msgstr "Excluir Fixado"
+msgstr "Excluir fixos"
 
 #: widgets/basic.php:482 widgets/widgets.php:625
-#, fuzzy
 msgid "Only Sticky"
-msgstr "Somente Fixado"
+msgstr "Apenas fixos"
 
 #: widgets/basic.php:487
 msgid "Additional "
@@ -1289,7 +1246,7 @@ msgstr "Mostra uma galeria."
 #: widgets/widgets.php:733
 #, fuzzy
 msgid "Gallery Images"
-msgstr "Imagens da galeria"
+msgstr "Imagens de galeria"
 
 #: widgets/widgets.php:734
 msgid "edit gallery"
@@ -1351,9 +1308,8 @@ msgid "Image (PB)"
 msgstr "Imagem (PB)"
 
 #: widgets/widgets.php:789
-#, fuzzy
 msgid "Displays a simple image."
-msgstr "Exibe uma simples imagem."
+msgstr "Mostra uma imagem simples."
 
 #: widgets/widgets.php:822 widgets/widgets/animated-image/animated-image.php:15
 msgid "Image URL"
@@ -1480,12 +1436,12 @@ msgstr "Justificado"
 #: widgets/widgets/call-to-action/call-to-action.php:6
 #, fuzzy
 msgid "Call To Action (PB)"
-msgstr "Chamada para ação"
+msgstr "Chamada para acção (PB)"
 
 #: widgets/widgets/call-to-action/call-to-action.php:8
 #, fuzzy
 msgid "A Call to Action block"
-msgstr "Um bloco de Chamada Para Ação"
+msgstr "Um bloco de chamada para acção"
 
 #: widgets/widgets/call-to-action/call-to-action.php:19
 msgid "Sub Title"
@@ -1511,12 +1467,10 @@ msgid "List (PB)"
 msgstr "Lista (PB)"
 
 #: widgets/widgets/list/list.php:8 widgets/widgets/price-box/price-box.php:8
-#, fuzzy
 msgid "Displays a bullet list of elements"
-msgstr "Exibe uma lista marcada de elementos"
+msgstr "Mostra uma lista de elementos com marcas"
 
 #: widgets/widgets/list/list.php:20 widgets/widgets/price-box/price-box.php:32
-#, fuzzy
 msgid "Start each new point with an asterisk (*)"
 msgstr "Comece cada novo ponto com um asterisco (*)"
 
@@ -1540,22 +1494,21 @@ msgstr "Informações de texto"
 #: widgets/widgets/price-box/price-box.php:31
 #, fuzzy
 msgid "Features Text"
-msgstr "Texto Características"
+msgstr "Texto das funcionalidades"
 
 #: widgets/widgets/price-box/price-box.php:50
 #, fuzzy
 msgid "Feature List"
-msgstr "Características Lista"
+msgstr "Lista de funcionalidades"
 
 #: widgets/widgets/testimonial/testimonial.php:6
 #, fuzzy
 msgid "Testimonial (PB)"
-msgstr "Depoimentos (PB)"
+msgstr "Testemunhos (PB)"
 
 #: widgets/widgets/testimonial/testimonial.php:8
-#, fuzzy
 msgid "Displays a bullet list of points"
-msgstr "Exibe uma lista marcada de pontos"
+msgstr "Mostra uma lista de pontos com marcas"
 
 #: widgets/widgets/testimonial/testimonial.php:19
 msgid "Location"
