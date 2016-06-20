@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Page Builder\n"
-"POT-Creation-Date: 2016-06-18 16:58+0100\n"
+"POT-Creation-Date: 2016-06-20 10:30+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language-Team: Pedro Mendonça <ped.gaspar@gmail.com>\n"
@@ -25,7 +25,7 @@ msgstr ""
 
 #: inc/admin-actions.php:86 tpl/js-templates.php:362
 msgid "Layouts Directory"
-msgstr ""
+msgstr "Directório de layouts"
 
 #: inc/admin-actions.php:114
 #, php-format
@@ -34,7 +34,7 @@ msgstr ""
 
 #: inc/admin-actions.php:153
 msgid " - Results For:"
-msgstr ""
+msgstr "- Resultados para:"
 
 #: inc/default-styles.php:44
 msgid "Row ID"
@@ -42,21 +42,19 @@ msgstr "ID da linha"
 
 #: inc/default-styles.php:47
 msgid "A custom ID used for this row."
-msgstr ""
+msgstr "Um ID personalizado usado para esta linha."
 
 #: inc/default-styles.php:52
-#, fuzzy
 msgid "Row Class"
-msgstr "Classe Linha"
+msgstr "Classe da linha"
 
 #: inc/default-styles.php:55 inc/default-styles.php:175
 msgid "A CSS class"
 msgstr "Uma classe CSS"
 
 #: inc/default-styles.php:60
-#, fuzzy
 msgid "Cell Class"
-msgstr "Classe Célula"
+msgstr "Classe da célula"
 
 #: inc/default-styles.php:63
 #, fuzzy
@@ -72,9 +70,8 @@ msgid "One style attribute per line."
 msgstr ""
 
 #: inc/default-styles.php:78
-#, fuzzy
 msgid "Bottom Margin"
-msgstr "Margem Inferior"
+msgstr "Margem inferior"
 
 #: inc/default-styles.php:81
 #, php-format
@@ -89,12 +86,11 @@ msgstr "Gutter"
 #: inc/default-styles.php:89
 #, php-format
 msgid "Amount of space between columns. Default is %spx."
-msgstr ""
+msgstr "Espaço entre as colunas. Por omissão é %spx."
 
 #: inc/default-styles.php:94 inc/default-styles.php:188
-#, fuzzy
 msgid "Padding"
-msgstr "Padding"
+msgstr "Espaçamento"
 
 #: inc/default-styles.php:97
 #, fuzzy
@@ -102,7 +98,6 @@ msgid "Padding around the entire row."
 msgstr "Preenchimento em torno de toda a linha."
 
 #: inc/default-styles.php:103
-#, fuzzy
 msgid "Row Layout"
 msgstr "Layout da linha"
 
@@ -183,9 +178,8 @@ msgid "Parallax (Original Size)"
 msgstr "Parallax (Tamanho original)"
 
 #: inc/default-styles.php:155 inc/default-styles.php:225
-#, fuzzy
 msgid "How the background image is displayed."
-msgstr "Como a imagem de fundo é exibida."
+msgstr "Como a imagem de fundo é mostrada."
 
 #: inc/default-styles.php:160 inc/default-styles.php:230
 msgid "Border Color"
@@ -196,9 +190,8 @@ msgid "Border color of the row."
 msgstr "Cor da borda da linha."
 
 #: inc/default-styles.php:172
-#, fuzzy
 msgid "Widget Class"
-msgstr "Classe Widget"
+msgstr "Classe do widget"
 
 #: inc/default-styles.php:191
 #, fuzzy
@@ -222,7 +215,6 @@ msgid "Font Color"
 msgstr "Cor da fonte"
 
 #: inc/default-styles.php:241
-#, fuzzy
 msgid "Color of text inside this widget."
 msgstr "Cor do texto dentro deste widget."
 
@@ -232,7 +224,7 @@ msgstr "Cor das ligações"
 
 #: inc/default-styles.php:249
 msgid "Color of links inside this widget."
-msgstr ""
+msgstr "Cor das ligações dentro deste widget."
 
 #: inc/plugin-activation.php:7 inc/plugin-activation.php:8
 #, fuzzy
@@ -245,54 +237,44 @@ msgid "Installing %s"
 msgstr "A instalar %s"
 
 #: inc/revisions.php:50
-#, fuzzy
 msgid "Page Builder Content"
-msgstr "Page Builder conteúdo"
+msgstr "Conteúdo do Page Builder"
 
 #: inc/styles.php:18
-#, fuzzy
 msgid "Row Styles"
-msgstr "Estilos Linha"
+msgstr "Estilos da linha"
 
 #: inc/styles.php:22
-#, fuzzy
 msgid "Widget Styles"
-msgstr "Estilos Widget"
+msgstr "Estilos do widget"
 
 #: inc/styles.php:47
-#, fuzzy
 msgid "Attributes"
 msgstr "Atributos"
 
 #: inc/styles.php:51 settings/settings.php:269
-#, fuzzy
 msgid "Layout"
 msgstr "Layout"
 
 #: inc/styles.php:55
-#, fuzzy
 msgid "Design"
 msgstr "Design"
 
 #: inc/styles.php:65
-#, fuzzy
 msgid "Theme"
 msgstr "Tema"
 
 #: inc/styles.php:186
-#, fuzzy
 msgid "Select Image"
-msgstr "Selecionar imagem"
+msgstr "Seleccionar imagem"
 
 #: inc/styles.php:190
-#, fuzzy
 msgid "Remove"
 msgstr "Remover"
 
 #: inc/styles.php:204 settings/settings.php:377
-#, fuzzy
 msgid "Enabled"
-msgstr "Ativado"
+msgstr "Activado"
 
 #: inc/widgets-bundle.php:7
 msgid "SiteOrigin Editor"
@@ -315,9 +297,8 @@ msgid "SiteOrigin Button"
 msgstr "SiteOrigin Botão"
 
 #: inc/widgets-bundle.php:20 widgets/widgets/button/button.php:8
-#, fuzzy
 msgid "A simple button"
-msgstr "Um simples botão"
+msgstr "Um botão simples"
 
 #: inc/widgets-bundle.php:31
 #, fuzzy
@@ -375,9 +356,8 @@ msgid "Install the 1{Widgets Bundle} to get extra widgets."
 msgstr "Instale o 1{Widgets Bundle} para obter os widgets extras."
 
 #: inc/widgets.php:112
-#, fuzzy
 msgid "Page Builder Widgets"
-msgstr "Page Builder Widgets"
+msgstr "Widgets do Page Builder"
 
 #: inc/widgets.php:120
 #, fuzzy
@@ -391,26 +371,21 @@ msgstr ""
 msgid "WordPress Widgets"
 msgstr "WordPress Widgets"
 
-#. TRANSLATORS: The name of WordPress plugin
 #: inc/widgets.php:138
 msgid "WooCommerce"
 msgstr "WooCommerce"
 
-#. TRANSLATORS: The name of WordPress plugin
 #: inc/widgets.php:149
-#, fuzzy
 msgid "Jetpack"
-msgstr "JetPack"
+msgstr "Jetpack"
 
-#. TRANSLATORS: The name of WordPress plugin
 #: inc/widgets.php:160
 msgid "BBPress"
 msgstr "BBPress"
 
 #: inc/widgets.php:168 settings/settings.php:262
-#, fuzzy
 msgid "Recommended Widgets"
-msgstr "Widgets Recomendados"
+msgstr "Widgets recomendados"
 
 #: settings/settings.php:172 settings/tpl/settings.php:9
 #, fuzzy
@@ -419,14 +394,12 @@ msgstr "SiteOrigin Page Builder"
 
 #: settings/settings.php:172 siteorigin-panels.php:111
 #: siteorigin-panels.php:538 tpl/js-templates.php:164
-#, fuzzy
 msgid "Page Builder"
-msgstr "Page Builder "
+msgstr "Page Builder"
 
 #: settings/settings.php:196
-#, fuzzy
 msgid "Page Builder Settings"
-msgstr "Configurações Page Builder"
+msgstr "Definições do Page Builder"
 
 #: settings/settings.php:212
 msgid "General"
@@ -437,9 +410,8 @@ msgid "Post Types"
 msgstr "Tipos de conteúdo"
 
 #: settings/settings.php:220
-#, fuzzy
 msgid "The post types to use Page Builder on."
-msgstr "Os tipos post para usar em Page Builder."
+msgstr "Os tipos de conteúdo a utilizar com o Page Builder."
 
 #: settings/settings.php:225
 msgid "Live Editor Quick Link"
@@ -478,7 +450,7 @@ msgstr ""
 
 #: settings/settings.php:250
 msgid "Add Widget Class"
-msgstr ""
+msgstr "Adicionar classe do widget"
 
 #: settings/settings.php:251
 msgid ""
@@ -503,9 +475,8 @@ msgstr ""
 "Exibir widgets recomendados no Page Builder e adicionar no widget diálogo."
 
 #: settings/settings.php:277
-#, fuzzy
 msgid "Responsive Layout"
-msgstr "Layout Responsivo"
+msgstr "Layout responsivo"
 
 #: settings/settings.php:278
 #, fuzzy
@@ -514,7 +485,7 @@ msgstr "Redimensionar widgets, linhas e colunas em dispositivos móveis."
 
 #: settings/settings.php:283
 msgid "Use Tablet Layout"
-msgstr ""
+msgstr "Usar layout de tablet"
 
 #: settings/settings.php:284
 msgid "Collapses columns differently on tablet devices."
@@ -522,7 +493,7 @@ msgstr ""
 
 #: settings/settings.php:290
 msgid "Tablet Width"
-msgstr ""
+msgstr "Largura de tablet"
 
 #: settings/settings.php:291
 msgid "Device width, in pixels, to collapse into a tablet view ."
@@ -540,7 +511,6 @@ msgstr ""
 "Largura do dispositivo, em pixels, para redimensionar em uma visão mobile."
 
 #: settings/settings.php:304
-#, fuzzy
 msgid "Row Bottom Margin"
 msgstr "Margem inferior da linha"
 
@@ -555,7 +525,7 @@ msgstr ""
 
 #: settings/settings.php:311
 msgid "Allow margin in last row."
-msgstr ""
+msgstr "Permitir margem na última linha."
 
 #: settings/settings.php:317
 #, fuzzy
@@ -599,9 +569,8 @@ msgstr ""
 "ajuda."
 
 #: settings/tpl/settings.php:12
-#, fuzzy
 msgid "Search Settings"
-msgstr "Pesquisar Configurações"
+msgstr "Pesquisar definições"
 
 #: settings/tpl/settings.php:29
 msgid "Settings Saved"
@@ -616,7 +585,6 @@ msgstr "Guardar definições"
 msgid "Custom Home Page Builder"
 msgstr "Página Inicial Personalizada Page Builder"
 
-#. TRANSLATORS: This is the default name given to a user's home page
 #: siteorigin-panels.php:77 siteorigin-panels.php:139
 msgid "Home Page"
 msgstr "Página inicial"
@@ -634,43 +602,36 @@ msgstr "Widgets em falta"
 msgid "Page Builder doesn't know about this widget."
 msgstr "O Page Builder não sabe sobre este widget."
 
-#. TRANSLATORS: Number of seconds since
 #: siteorigin-panels.php:318
 #, php-format
 msgid "%d seconds"
 msgstr "%d segundos"
 
-#. TRANSLATORS: Number of minutes since
 #: siteorigin-panels.php:320
 #, php-format
 msgid "%d minutes"
 msgstr "%d minutos"
 
-#. TRANSLATORS: Number of hours since
 #: siteorigin-panels.php:322
 #, php-format
 msgid "%d hours"
 msgstr "%d horas"
 
-#. TRANSLATORS: A single second since
 #: siteorigin-panels.php:325
 #, php-format
 msgid "%d second"
 msgstr "%d segundo"
 
-#. TRANSLATORS: A single minute since
 #: siteorigin-panels.php:327
 #, php-format
 msgid "%d minute"
 msgstr "%d minuto"
 
-#. TRANSLATORS: A single hour since
 #: siteorigin-panels.php:329
 #, php-format
 msgid "%d hour"
 msgstr "%d hora"
 
-#. TRANSLATORS: Time ago - eg. "1 minute before".
 #: siteorigin-panels.php:332
 #, php-format
 msgid "%s before"
@@ -696,52 +657,42 @@ msgstr "Versão restaurada"
 msgid "Converted to editor"
 msgstr ""
 
-#. TRANSLATORS: Message displayed in the history when a widget is deleted
 #: siteorigin-panels.php:344
 msgid "Widget deleted"
 msgstr "Widget eliminado"
 
-#. TRANSLATORS: Message displayed in the history when a widget is added
 #: siteorigin-panels.php:346
 msgid "Widget added"
 msgstr "Widget adicionado"
 
-#. TRANSLATORS: Message displayed in the history when a widget is edited
 #: siteorigin-panels.php:348
 msgid "Widget edited"
 msgstr "Widget editado"
 
-#. TRANSLATORS: Message displayed in the history when a widget is duplicated
 #: siteorigin-panels.php:350
 msgid "Widget duplicated"
 msgstr "Widget duplicado"
 
-#. TRANSLATORS: Message displayed in the history when a widget position is changed
 #: siteorigin-panels.php:352
 msgid "Widget moved"
 msgstr "Widget movido"
 
-#. TRANSLATORS: Message displayed in the history when a row is deleted
 #: siteorigin-panels.php:356
 msgid "Row deleted"
 msgstr "Linha eliminada"
 
-#. TRANSLATORS: Message displayed in the history when a row is added
 #: siteorigin-panels.php:358
 msgid "Row added"
 msgstr "Linha adicionada"
 
-#. TRANSLATORS: Message displayed in the history when a row is edited
 #: siteorigin-panels.php:360
 msgid "Row edited"
 msgstr "Linha editada"
 
-#. TRANSLATORS: Message displayed in the history when a row position is changed
 #: siteorigin-panels.php:362
 msgid "Row moved"
 msgstr "Linha movida"
 
-#. TRANSLATORS: Message displayed in the history when a row is duplicated
 #: siteorigin-panels.php:364
 msgid "Row duplicated"
 msgstr "Linha duplicada"
@@ -776,36 +727,31 @@ msgstr ""
 "Gostaria de limpar o seu conteúdo Page Builder e voltar a usar o editor "
 "visual padrão?"
 
-#. TRANSLATORS: This is the title for a widget called "Layout Builder"
 #: siteorigin-panels.php:378
 #, fuzzy
 msgid "Layout Builder Widget"
 msgstr "Widget Layout Builder"
 
-#. TRANSLATORS: A standard confirmation message
 #: siteorigin-panels.php:380 tpl/js-templates.php:89 tpl/js-templates.php:387
-#, fuzzy
 msgid "Are you sure?"
-msgstr "Você tem certeza?"
+msgstr "Tem a certeza?"
 
-#. TRANSLATORS: When a layout file is ready to be inserted. %s is the filename.
 #: siteorigin-panels.php:382
-#, php-format
+#, fuzzy, php-format
 msgid "%s is ready to insert."
-msgstr ""
+msgstr "%s está pronto para inserir."
 
 #: siteorigin-panels.php:386
 msgid "Add Widget Below"
-msgstr ""
+msgstr "Adicionar widget abaixo"
 
 #: siteorigin-panels.php:387
 msgid "Add Widget to Cell"
-msgstr ""
+msgstr "Adicionar widget à célula"
 
 #: siteorigin-panels.php:388 tpl/js-templates.php:191
-#, fuzzy
 msgid "Search Widgets"
-msgstr "Pesquisar Widgets"
+msgstr "Pesquisar widgets"
 
 #: siteorigin-panels.php:390 tpl/js-templates.php:17 tpl/js-templates.php:19
 msgid "Add Row"
@@ -821,15 +767,15 @@ msgstr ""
 
 #: siteorigin-panels.php:394
 msgid "Edit Widget"
-msgstr ""
+msgstr "Editar widget"
 
 #: siteorigin-panels.php:395
 msgid "Duplicate Widget"
-msgstr ""
+msgstr "Duplicar widget"
 
 #: siteorigin-panels.php:396
 msgid "Delete Widget"
-msgstr ""
+msgstr "Eliminar widget"
 
 #: siteorigin-panels.php:398
 msgid "Row Actions"
@@ -852,9 +798,8 @@ msgid "Draft"
 msgstr "Rascunho"
 
 #: siteorigin-panels.php:410
-#, fuzzy
 msgid "Page Builder layouts"
-msgstr "Page Builder layouts"
+msgstr "Layouts do Page Builder"
 
 #: siteorigin-panels.php:411
 msgid "Error uploading or importing file."
@@ -901,7 +846,6 @@ msgid "Support Forum"
 msgstr "Fórum de suporte"
 
 #: siteorigin-panels.php:1449
-#, fuzzy
 msgid "Newsletter"
 msgstr "Newsletter"
 
@@ -925,7 +869,6 @@ msgid "Custom Home Page"
 msgstr "Página inicial personalizada"
 
 #: tpl/admin-home-page.php:41
-#, fuzzy
 msgid "Home page updated. 1{View page}."
 msgstr "Página inicial actualizada. 1{View page}."
 
@@ -934,7 +877,6 @@ msgid "Save Home Page"
 msgstr "Guardar página inicial"
 
 #: tpl/admin-home-page.php:64
-#, fuzzy
 msgid "This interface requires Javascript"
 msgstr "Esta interface requer Javascript"
 
@@ -986,9 +928,8 @@ msgstr "Histórico"
 
 #: tpl/js-templates.php:41
 msgid "Revert to Editor"
-msgstr ""
+msgstr "Reverter para o editor"
 
-#. TRANSLATORS: This message gives suggestions of next steps for the user x{...} is used to insert links
 #: tpl/js-templates.php:66
 #, fuzzy
 msgid ""
@@ -1012,33 +953,29 @@ msgstr "Eliminar"
 
 #: tpl/js-templates.php:173 tpl/js-templates.php:238 tpl/js-templates.php:333
 #: tpl/js-templates.php:518
-#, fuzzy
 msgid "Done"
-msgstr "Feito"
+msgstr "Concluído"
 
 #: tpl/js-templates.php:187
-#, fuzzy, php-format
+#, php-format
 msgid "Add New Widget %s"
-msgstr "Adicionar Novo Widget %s"
+msgstr "Adicionar novo widget %s"
 
 #: tpl/js-templates.php:203
 msgid "Close"
 msgstr "Fechar"
 
 #: tpl/js-templates.php:258
-#, fuzzy
 msgid "Add New Row"
-msgstr "Adicionar Nova Linha"
+msgstr "Adicionar nova linha"
 
 #: tpl/js-templates.php:294
-#, fuzzy
 msgid "Left to Right"
-msgstr "Esquerda para Direita"
+msgstr "Da esquerda para a direita"
 
 #: tpl/js-templates.php:295
-#, fuzzy
 msgid "Right to Left"
-msgstr "Direita para Esquerda"
+msgstr "Da direita para a esquerda"
 
 #: tpl/js-templates.php:306
 #, fuzzy, php-format
@@ -1057,10 +994,9 @@ msgstr "Inserir"
 
 #: tpl/js-templates.php:351
 msgid "Page Builder Layouts"
-msgstr ""
+msgstr "Layouts do Page Builder"
 
 #: tpl/js-templates.php:355
-#, fuzzy
 msgid "Search"
 msgstr "Pesquisar"
 
@@ -1070,9 +1006,8 @@ msgid "Theme Defined"
 msgstr "Tema definido"
 
 #: tpl/js-templates.php:363
-#, fuzzy
 msgid "Import/Export"
-msgstr "Importar/Exportar"
+msgstr "Importar/exportar"
 
 #: tpl/js-templates.php:369
 #, fuzzy, php-format
@@ -1081,15 +1016,15 @@ msgstr "Clonar: %s"
 
 #: tpl/js-templates.php:385
 msgid "Insert after"
-msgstr ""
+msgstr "Inserir depois"
 
 #: tpl/js-templates.php:386
 msgid "Insert before"
-msgstr ""
+msgstr "Inserir antes"
 
 #: tpl/js-templates.php:387
 msgid "Replace current"
-msgstr ""
+msgstr "Substituir actual"
 
 #: tpl/js-templates.php:398
 msgid "Do you want to browse the Prebuilt Layouts directory?"
@@ -1101,7 +1036,7 @@ msgstr "Activar"
 
 #: tpl/js-templates.php:412
 msgid "Your search didn't return any results"
-msgstr ""
+msgstr "A sua pesquisa não encontrou nenhum resultado"
 
 #: tpl/js-templates.php:440
 msgid "Previous"
@@ -1126,14 +1061,12 @@ msgid "Select Import File"
 msgstr "Selecionar o Arquivo de Importação"
 
 #: tpl/js-templates.php:469
-#, fuzzy
 msgid "Download Layout"
-msgstr "Download Layout"
+msgstr "Descarregar layout"
 
 #: tpl/js-templates.php:480
-#, fuzzy
 msgid "Page Builder Change History"
-msgstr "Histórico de Alterações Page Builder"
+msgstr "Histórico de alterações do Page Builder"
 
 #: tpl/js-templates.php:494
 msgid "Restore Version"
@@ -1163,7 +1096,6 @@ msgstr ""
 msgid "No Results"
 msgstr "Sem resultados"
 
-#. TRANSLATORS: This is the name of a widget
 #: widgets/basic.php:13
 #, fuzzy
 msgid "Layout Builder"
@@ -1180,9 +1112,8 @@ msgid "Open Builder"
 msgstr "Abrir Construtor"
 
 #: widgets/basic.php:99
-#, fuzzy
 msgid "Post Content"
-msgstr "Conteúdo Post"
+msgstr "Conteúdo do artigo"
 
 #: widgets/basic.php:101
 #, fuzzy
@@ -1205,9 +1136,8 @@ msgid "Featured Image"
 msgstr "Imagem de destaque"
 
 #: widgets/basic.php:154
-#, fuzzy
 msgid "Display Content"
-msgstr "Exibir Conteúdo"
+msgstr "Mostrar conteúdo"
 
 #: widgets/basic.php:174
 #, fuzzy
@@ -1278,9 +1208,8 @@ msgid "Parent"
 msgstr "Parente"
 
 #: widgets/basic.php:461 widgets/widgets.php:603
-#, fuzzy
 msgid "Random"
-msgstr "Random"
+msgstr "Aleatório"
 
 #: widgets/basic.php:462 widgets/widgets.php:604
 #, fuzzy
@@ -1310,9 +1239,8 @@ msgid "Ascending"
 msgstr "Ascendente"
 
 #: widgets/basic.php:477 widgets/widgets.php:620
-#, fuzzy
 msgid "Sticky Posts"
-msgstr "Post Fixado"
+msgstr "Artigos fixos"
 
 #: widgets/basic.php:480 widgets/widgets.php:623
 #, fuzzy
@@ -1334,9 +1262,8 @@ msgid "Additional "
 msgstr "Adicional"
 
 #: widgets/basic.php:494 widgets/widgets.php:635
-#, fuzzy
 msgid "Additional query arguments. See 1{query_posts}."
-msgstr "Argumentos adicionais para consulta. Ver 1{query_posts}."
+msgstr "Argumentos de consulta adicionais. Ver 1{query_posts}."
 
 #: widgets/widgets.php:207
 msgid "Style"
@@ -1348,24 +1275,21 @@ msgid "%s Style"
 msgstr "Estilo %s"
 
 #: widgets/widgets.php:631
-#, fuzzy
 msgid "Additional Arguments"
-msgstr "Argumentos Adicionais"
+msgstr "Argumentos adicionais"
 
 #: widgets/widgets.php:692
-#, fuzzy
 msgid "Gallery (PB)"
 msgstr "Galeria (PB)"
 
 #: widgets/widgets.php:694
-#, fuzzy
 msgid "Displays a gallery."
-msgstr "Exibir uma galeria"
+msgstr "Mostra uma galeria."
 
 #: widgets/widgets.php:733
 #, fuzzy
 msgid "Gallery Images"
-msgstr "Galeria de Imagens"
+msgstr "Imagens da galeria"
 
 #: widgets/widgets.php:734
 msgid "edit gallery"
@@ -1384,7 +1308,6 @@ msgid "Image Size"
 msgstr "Tamanho da imagem"
 
 #: widgets/widgets.php:745
-#, fuzzy
 msgid "Large"
 msgstr "Grande"
 
@@ -1424,7 +1347,6 @@ msgid "File"
 msgstr "Ficheiro"
 
 #: widgets/widgets.php:787
-#, fuzzy
 msgid "Image (PB)"
 msgstr "Imagem (PB)"
 
@@ -1442,23 +1364,20 @@ msgid "Destination URL"
 msgstr "URL de destino"
 
 #: widgets/widgets.php:840
-#, fuzzy
 msgid "Embedded Video (PB)"
 msgstr "Vídeo incorporado (PB)"
 
 #: widgets/widgets.php:842
-#, fuzzy
 msgid "Embeds a video."
-msgstr "Incorporar um vídeo."
+msgstr "Incorpora um vídeo."
 
 #: widgets/widgets.php:880
 msgid "Video"
 msgstr "Vídeo"
 
 #: widgets/widgets.php:896
-#, fuzzy
 msgid "Self Hosted Video (PB)"
-msgstr "Vídeo auto hospedado (PB)"
+msgstr "Vídeo auto alojado (PB)"
 
 #: widgets/widgets.php:898
 #, fuzzy
@@ -1466,7 +1385,6 @@ msgid "A self hosted video player."
 msgstr "Um vídeo player auto hospedado."
 
 #: widgets/widgets.php:940
-#, fuzzy
 msgid "Video URL"
 msgstr "URL do vídeo"
 
@@ -1486,7 +1404,6 @@ msgid "Auto Play Video"
 msgstr "Autoplay Vídeo"
 
 #: widgets/widgets/animated-image/animated-image.php:6
-#, fuzzy
 msgid "Animated Image (PB)"
 msgstr "Imagem animada (PB)"
 
@@ -1525,7 +1442,6 @@ msgid "Slide Right"
 msgstr "Slide direita"
 
 #: widgets/widgets/button/button.php:6
-#, fuzzy
 msgid "Button (PB)"
 msgstr "Botão (PB)"
 
@@ -1538,14 +1454,12 @@ msgstr "Texto"
 #: widgets/widgets/call-to-action/call-to-action.php:31
 #: widgets/widgets/price-box/price-box.php:44
 #: widgets/widgets/testimonial/testimonial.php:36
-#, fuzzy
 msgid "Open In New Window"
-msgstr "Abrir em Nova Janela"
+msgstr "Abrir numa nova janela"
 
 #: widgets/widgets/button/button.php:27
-#, fuzzy
 msgid "Button Alignment"
-msgstr "Alinhamento Botão"
+msgstr "Alinhamento do botão"
 
 #: widgets/widgets/button/button.php:29
 msgid "Left"
@@ -1579,9 +1493,8 @@ msgstr "Subtítulo"
 
 #: widgets/widgets/call-to-action/call-to-action.php:23
 #: widgets/widgets/price-box/price-box.php:36
-#, fuzzy
 msgid "Button Text"
-msgstr "Texto Botão"
+msgstr "Texto do botão"
 
 #: widgets/widgets/call-to-action/call-to-action.php:27
 #: widgets/widgets/price-box/price-box.php:40
@@ -1594,7 +1507,6 @@ msgid "Button"
 msgstr "Botão"
 
 #: widgets/widgets/list/list.php:6
-#, fuzzy
 msgid "List (PB)"
 msgstr "Lista (PB)"
 
@@ -1609,9 +1521,8 @@ msgid "Start each new point with an asterisk (*)"
 msgstr "Comece cada novo ponto com um asterisco (*)"
 
 #: widgets/widgets/price-box/price-box.php:6
-#, fuzzy
 msgid "Price Box (PB)"
-msgstr "Caixa de Preço (PB)"
+msgstr "Caixa de preço (PB)"
 
 #: widgets/widgets/price-box/price-box.php:19
 msgid "Price"
@@ -1654,14 +1565,13 @@ msgstr "Localização"
 msgid "Image"
 msgstr "Imagem"
 
-#. TRANSLATORS: Uniform Resource Locator
 #: widgets/widgets/testimonial/testimonial.php:32
 msgid "URL"
 msgstr "URL"
 
 #. Plugin Name of the plugin/theme
 msgid "Page Builder by SiteOrigin"
-msgstr ""
+msgstr "Page Builder por SiteOrigin"
 
 #. Plugin URI of the plugin/theme
 msgid "https://siteorigin.com/page-builder/"
