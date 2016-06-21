@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Page Builder\n"
-"POT-Creation-Date: 2016-06-20 10:30+0100\n"
+"POT-Creation-Date: 2016-06-21 16:14+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language-Team: Pedro Mendonça <ped.gaspar@gmail.com>\n"
@@ -104,18 +104,16 @@ msgid "Standard"
 msgstr "Por omissão"
 
 #: inc/default-styles.php:108
-#, fuzzy
 msgid "Full Width"
-msgstr "Largura completa"
+msgstr "Em toda a largura"
 
 #: inc/default-styles.php:109
-#, fuzzy
 msgid "Full Width Stretched"
-msgstr "Largura completa esticada"
+msgstr "Em toda a largura esticada"
 
 #: inc/default-styles.php:115
 msgid "Collapse Order"
-msgstr ""
+msgstr "Ordem ao minimizar"
 
 #: inc/default-styles.php:119 widgets/basic.php:479 widgets/widgets.php:622
 #: widgets/widgets.php:744
@@ -124,11 +122,11 @@ msgstr "Por omissão"
 
 #: inc/default-styles.php:120
 msgid "Left on Top"
-msgstr ""
+msgstr "Esquerdo por cima"
 
 #: inc/default-styles.php:121
 msgid "Right on Top"
-msgstr ""
+msgstr "Direito por cima"
 
 #: inc/default-styles.php:129 inc/default-styles.php:199
 msgid "Background Color"
@@ -149,20 +147,17 @@ msgstr "Imagem de fundo da linha."
 #: inc/default-styles.php:145 inc/default-styles.php:215
 #, fuzzy
 msgid "Background Image Display"
-msgstr "Mostrar imagem de fundo"
+msgstr "Imagem de fundo"
 
 #: inc/default-styles.php:149 inc/default-styles.php:219
-#, fuzzy
 msgid "Tiled Image"
 msgstr "Imagem repetida"
 
 #: inc/default-styles.php:150 inc/default-styles.php:220
-#, fuzzy
 msgid "Cover"
-msgstr "Cover"
+msgstr "Capa"
 
 #: inc/default-styles.php:151 inc/default-styles.php:221
-#, fuzzy
 msgid "Centered, with original size"
 msgstr "Centrada, com tamanho original"
 
@@ -371,7 +366,6 @@ msgid "Recommended Widgets"
 msgstr "Widgets recomendados"
 
 #: settings/settings.php:172 settings/tpl/settings.php:9
-#, fuzzy
 msgid "SiteOrigin Page Builder"
 msgstr "SiteOrigin Page Builder"
 
@@ -398,99 +392,100 @@ msgstr "Os tipos de conteúdo a utilizar com o Page Builder."
 
 #: settings/settings.php:225
 msgid "Live Editor Quick Link"
-msgstr ""
+msgstr "Ligação rápida para o Editor com pré-visualização"
 
 #: settings/settings.php:226
 msgid "Display a Live Editor button in the admin bar."
 msgstr ""
+"Mostra um botão de Editor com pré-visualização na barra de administração."
 
 #: settings/settings.php:231
 msgid "Limit Parallax Motion"
-msgstr ""
+msgstr "Limite do movimento parallax"
 
 #: settings/settings.php:232
 msgid ""
 "How many pixels of scrolling result in a single pixel of parallax motion. 0 "
 "means automatic. Lower values give more noticeable effect."
 msgstr ""
+"Quantos píxeis de deslocamento resultam num único píxel de movimento "
+"parallax. 0 significa automático. Valores mais baixos produzem um efeito "
+"mais acentuado."
 
 #: settings/settings.php:238
 msgid "Widgets"
 msgstr "Widgets"
 
 #: settings/settings.php:244
-#, fuzzy
 msgid "Widget Title HTML"
-msgstr "HTML do widget de título"
+msgstr "HTML do título de widget"
 
 #: settings/settings.php:245
-#, fuzzy
 msgid ""
 "The HTML used for widget titles. {{title}} is replaced with the widget title."
 msgstr ""
-"O HTML usado para títulos do widget. {{title}} é substituído com o título "
-"widget."
+"O HTML usado para nos títulos dos widgets. {{title}} é substituído pelo "
+"título do widget."
 
 #: settings/settings.php:250
 msgid "Add Widget Class"
-msgstr "Adicionar classe do widget"
+msgstr "Adicionar classe de widget"
 
 #: settings/settings.php:251
 msgid ""
 "Add the widget class to Page Builder widgets. Disable this if you're "
 "experiencing conflicts."
 msgstr ""
+"Adiciona a classe de widget aos widgets do Page Builder. Desactive se "
+"ocorrerem conflitos."
 
 #: settings/settings.php:256
 msgid "Legacy Bundled Widgets"
-msgstr "Antigo conjunto de widgets"
+msgstr "Conjunto de widgets antigos"
 
 #: settings/settings.php:257
-#, fuzzy
 msgid "Load legacy widgets from Page Builder 1."
-msgstr "Carregar legacy widgets de Page Builder 1."
+msgstr "Carrega widgets antigos do Page Builder 1."
 
 #: settings/settings.php:263
-#, fuzzy
 msgid "Display recommend widgets in Page Builder add widget dialog."
-msgstr ""
-"Exibir widgets recomendados no Page Builder e adicionar no widget diálogo."
+msgstr "Mostra widgets recomendados ao adicionar widgets do Page Builder."
 
 #: settings/settings.php:277
 msgid "Responsive Layout"
 msgstr "Layout responsivo"
 
 #: settings/settings.php:278
-#, fuzzy
 msgid "Collapse widgets, rows and columns on mobile devices."
 msgstr "Redimensionar widgets, linhas e colunas em dispositivos móveis."
 
 #: settings/settings.php:283
 msgid "Use Tablet Layout"
-msgstr "Usar layout de tablet"
+msgstr "Layout de tablet"
 
 #: settings/settings.php:284
-#, fuzzy
 msgid "Collapses columns differently on tablet devices."
-msgstr "Minimiza colunas de modo diferente em tablets."
+msgstr "Redimensionar colunas de modo diferente em tablets."
 
 #: settings/settings.php:290
 msgid "Tablet Width"
 msgstr "Largura de tablet"
 
 #: settings/settings.php:291
-msgid "Device width, in pixels, to collapse into a tablet view ."
+msgid "Device width, in pixels, to collapse into a tablet view."
 msgstr ""
+"Largura do dispositivo (em píxeis), para redimensionar para a vista de "
+"tablet."
 
 #: settings/settings.php:297
 msgid "Mobile Width"
 msgstr "Largura de mobile"
 
 #: settings/settings.php:298
-#, fuzzy
-msgid "Device width, in pixels, to collapse into a mobile view ."
+msgid "Device width, in pixels, to collapse into a mobile view."
 msgstr ""
-"Largura do dispositivo, em pixels, para redimensionar em uma visão mobile."
+"Largura do dispositivo (em píxeis), para redimensionar para a vista de "
+"mobile."
 
 #: settings/settings.php:304
 msgid "Row Bottom Margin"
@@ -502,7 +497,7 @@ msgstr "Margem por omissão abaixo das linhas."
 
 #: settings/settings.php:310
 msgid "Last Row With Margin"
-msgstr "Última linha com margem"
+msgstr "Margem da última linha"
 
 #: settings/settings.php:311
 msgid "Allow margin in last row."
@@ -510,22 +505,19 @@ msgstr "Permitir margem na última linha."
 
 #: settings/settings.php:317
 msgid "Row Gutter"
-msgstr "Espaço entre linhas"
+msgstr "Espaço entre colunas"
 
 #: settings/settings.php:318
-#, fuzzy
 msgid "Default spacing between columns in each row."
-msgstr "Espaço por omissão entre colunas em cada linha."
+msgstr "Espaço por omissão entre colunas, em cada linha."
 
 #: settings/settings.php:324
-#, fuzzy
 msgid "Full Width Container"
-msgstr "Container de largura total"
+msgstr "Container a toda a largura"
 
 #: settings/settings.php:325
-#, fuzzy
 msgid "The container used for the full width layout."
-msgstr "O container utilizado para o layout de largura total."
+msgstr "O <em>container</em> utilizado para o layout a toda a largura."
 
 #: settings/settings.php:332
 msgid "Content"
@@ -540,12 +532,11 @@ msgid "Copy content from Page Builder to post content."
 msgstr "Copiar conteúdo do Page Builder para o conteúdo do artigo."
 
 #: settings/tpl/help.php:6
-#, fuzzy
 msgid ""
 "Please read the 1{settings guide} of the Page Builder documentation for help."
 msgstr ""
-"Por favor, leia o 1{guia de definições} da documentação do Page Builder para "
-"obter ajuda."
+"Por favor, leia as 1{Page Builder Settings} da documentação do Page Builder "
+"para obter ajuda."
 
 #: settings/tpl/settings.php:12
 msgid "Search Settings"
@@ -822,7 +813,6 @@ msgid "Newsletter"
 msgstr "Newsletter"
 
 #: siteorigin-panels.php:1464 tpl/js-templates.php:34 tpl/js-templates.php:36
-#, fuzzy
 msgid "Live Editor"
 msgstr "Editor com pré-visualização"
 
@@ -1014,7 +1004,6 @@ msgid "Next"
 msgstr "Seguinte"
 
 #: tpl/js-templates.php:451
-#, fuzzy
 msgid "Drop import file here"
 msgstr "Arraste para aqui o seu ficheiro de importação"
 
@@ -1122,12 +1111,13 @@ msgstr "Modelo"
 #: widgets/basic.php:401
 #, fuzzy
 msgid "More Link "
-msgstr "Link Mais "
+msgstr "Ligação <em>mais</em>"
 
 #: widgets/basic.php:403
 #, fuzzy
 msgid "If the template supports it, cut posts and display the more link."
-msgstr "Se o modelo suporta, cortar os posts e exibir link mais."
+msgstr ""
+"Se o modelo o suportar, corta os artigos e mostra a ligação para ler mais."
 
 #: widgets/basic.php:437 widgets/widgets.php:581
 msgid "Post Type"
@@ -1172,7 +1162,6 @@ msgid "Random"
 msgstr "Aleatório"
 
 #: widgets/basic.php:462 widgets/widgets.php:604
-#, fuzzy
 msgid "Comment Count"
 msgstr "Contagem de comentários"
 
@@ -1269,18 +1258,16 @@ msgid "Large"
 msgstr "Grande"
 
 #: widgets/widgets.php:746
-#, fuzzy
 msgid "Medium"
-msgstr "Médio"
+msgstr "Média"
 
 #: widgets/widgets.php:747
 msgid "Thumbnail"
 msgstr "Miniatura"
 
 #: widgets/widgets.php:748
-#, fuzzy
 msgid "Full"
-msgstr "Inteira"
+msgstr "Original"
 
 #: widgets/widgets.php:756
 msgid "Gallery Type"
@@ -1291,9 +1278,8 @@ msgid "Columns"
 msgstr "Colunas"
 
 #: widgets/widgets.php:766
-#, fuzzy
 msgid "Link To"
-msgstr "Link Para"
+msgstr "Ligação para"
 
 #: widgets/widgets.php:768
 msgid "Attachment Page"
@@ -1336,28 +1322,24 @@ msgid "Self Hosted Video (PB)"
 msgstr "Vídeo auto alojado (PB)"
 
 #: widgets/widgets.php:898
-#, fuzzy
 msgid "A self hosted video player."
-msgstr "Um vídeo player auto hospedado."
+msgstr "Um leitor de vídeo auto alojado."
 
 #: widgets/widgets.php:940
 msgid "Video URL"
 msgstr "URL do vídeo"
 
 #: widgets/widgets.php:944
-#, fuzzy
 msgid "Poster URL"
 msgstr "URL do poster"
 
 #: widgets/widgets.php:946
-#, fuzzy
 msgid "An image that displays before the video starts playing."
-msgstr "Uma imagem que é exibida antes do vídeo começar"
+msgstr "Uma imagem que é mostrada antes de reproduzir o vídeo."
 
 #: widgets/widgets.php:951
-#, fuzzy
 msgid "Auto Play Video"
-msgstr "Autoplay Vídeo"
+msgstr "Reproduzir vídeo automaticamente"
 
 #: widgets/widgets/animated-image/animated-image.php:6
 msgid "Animated Image (PB)"
@@ -1378,24 +1360,20 @@ msgid "Fade In"
 msgstr "Desvanecer-se"
 
 #: widgets/widgets/animated-image/animated-image.php:22
-#, fuzzy
 msgid "Slide Up"
 msgstr "Slide para cima"
 
 #: widgets/widgets/animated-image/animated-image.php:23
-#, fuzzy
 msgid "Slide Down"
 msgstr "Slide para baixo"
 
 #: widgets/widgets/animated-image/animated-image.php:24
-#, fuzzy
 msgid "Slide Left"
-msgstr "Slide esquerda"
+msgstr "Slide a esquerda"
 
 #: widgets/widgets/animated-image/animated-image.php:25
-#, fuzzy
 msgid "Slide Right"
-msgstr "Slide direita"
+msgstr "Slide a direita"
 
 #: widgets/widgets/button/button.php:6
 msgid "Button (PB)"
@@ -1535,6 +1513,8 @@ msgid ""
 "A drag and drop, responsive page builder that simplifies building your "
 "website."
 msgstr ""
+"Uma interface responsiva de construção de páginas através de arrastar e "
+"largar, que simplifica a construção do seu site."
 
 #. Author of the plugin/theme
 msgid "SiteOrigin"
@@ -1543,6 +1523,16 @@ msgstr "SiteOrigin"
 #. Author URI of the plugin/theme
 msgid "https://siteorigin.com"
 msgstr "https://siteorigin.com"
+
+#~ msgid "Device width, in pixels, to collapse into a tablet view ."
+#~ msgstr ""
+#~ "Largura do dispositivo (em píxeis) para redimensionar para a vista de "
+#~ "tablet."
+
+#~ msgid "Device width, in pixels, to collapse into a mobile view ."
+#~ msgstr ""
+#~ "Largura do dispositivo (em píxeis), para redimensionar para a vista de "
+#~ "mobile."
 
 #, fuzzy
 #~ msgid "No description"
