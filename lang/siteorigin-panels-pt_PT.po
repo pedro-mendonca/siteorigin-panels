@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Page Builder\n"
-"POT-Creation-Date: 2016-06-21 16:14+0100\n"
+"POT-Creation-Date: 2016-07-18 16:49+0100\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Pedro Mendonça <ped.gaspar@gmail.com>\n"
 "Language-Team: Pedro Mendonça <ped.gaspar@gmail.com>\n"
@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.8\n"
+"X-Generator: Poedit 1.8.9\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: ..\n"
@@ -29,7 +29,7 @@ msgid "Layouts Directory"
 msgstr "Directório de layouts"
 
 #: inc/admin-actions.php:114
-#, fuzzy, php-format
+#, php-format
 msgid "Clone %s"
 msgstr "Clonar %s"
 
@@ -145,9 +145,8 @@ msgid "Background image of the row."
 msgstr "Imagem de fundo da linha."
 
 #: inc/default-styles.php:145 inc/default-styles.php:215
-#, fuzzy
 msgid "Background Image Display"
-msgstr "Imagem de fundo"
+msgstr "Apresentação da imagem de fundo"
 
 #: inc/default-styles.php:149 inc/default-styles.php:219
 msgid "Tiled Image"
@@ -268,7 +267,7 @@ msgstr "Activado"
 
 #: inc/widgets-bundle.php:7
 msgid "SiteOrigin Editor"
-msgstr "Editor do SiteOrigin"
+msgstr "SiteOrigin Editor"
 
 #: inc/widgets-bundle.php:8
 msgid "A rich text editor"
@@ -278,11 +277,11 @@ msgstr "Um editor de rich text"
 #: inc/widgets-bundle.php:35 inc/widgets-bundle.php:47
 #: inc/widgets-bundle.php:59 inc/widgets-bundle.php:71 inc/widgets.php:106
 msgid "SiteOrigin Widgets Bundle"
-msgstr "Conjunto de widgets do SiteOrigin"
+msgstr "Conjunto de widgets SiteOrigin"
 
 #: inc/widgets-bundle.php:19
 msgid "SiteOrigin Button"
-msgstr "Botão do SiteOrigin"
+msgstr "SiteOrigin Button"
 
 #: inc/widgets-bundle.php:20 widgets/widgets/button/button.php:8
 msgid "A simple button"
@@ -290,7 +289,7 @@ msgstr "Um botão simples"
 
 #: inc/widgets-bundle.php:31
 msgid "SiteOrigin Image"
-msgstr "Imagem do SiteOrigin"
+msgstr "SiteOrigin Image"
 
 #: inc/widgets-bundle.php:32
 msgid "Choose images from your media library."
@@ -298,16 +297,15 @@ msgstr "Escolher imagens da sua biblioteca multimédia."
 
 #: inc/widgets-bundle.php:43
 msgid "SiteOrigin Slider"
-msgstr "Slider do SiteOrigin"
+msgstr "SiteOrigin Slider"
 
 #: inc/widgets-bundle.php:44
 msgid "A basic slider widget."
 msgstr "Um widget slider básico."
 
 #: inc/widgets-bundle.php:55
-#, fuzzy
 msgid "SiteOrigin Features"
-msgstr "Funcionalidades do SiteOrigin"
+msgstr "SiteOrigin Features"
 
 #: inc/widgets-bundle.php:56
 #, fuzzy
@@ -315,14 +313,13 @@ msgid "Display site features as a collection of icons."
 msgstr "Mostra as funcionalidades do site como uma coleção de ícones."
 
 #: inc/widgets-bundle.php:67
-#, fuzzy
 msgid "SiteOrigin Post Carousel"
-msgstr "Carrocel de artigos do SiteOrigin"
+msgstr "SiteOrigin Post Carousel"
 
 #: inc/widgets-bundle.php:68
 #, fuzzy
 msgid "Display your posts as a carousel."
-msgstr "Mostra os seus artigos como um carrocel."
+msgstr "Mostra os seus conteúdos como um carrocel."
 
 #: inc/widgets.php:84
 msgid "Widgets Bundle"
@@ -334,7 +331,7 @@ msgstr "Activar mais widgets nas 1{definições do Conjunto de widgets}."
 
 #: inc/widgets.php:107
 msgid "Install the 1{Widgets Bundle} to get extra widgets."
-msgstr "Instale o 1{Connjunto de widgets} para obter widgets extra."
+msgstr "Instale o 1{Conjunto de widgets} para obter widgets extra."
 
 #: inc/widgets.php:112
 msgid "Page Builder Widgets"
@@ -512,8 +509,9 @@ msgid "Default spacing between columns in each row."
 msgstr "Espaço por omissão entre colunas, em cada linha."
 
 #: settings/settings.php:324
+#, fuzzy
 msgid "Full Width Container"
-msgstr "Container a toda a largura"
+msgstr "Limites a toda a largura"
 
 #: settings/settings.php:325
 msgid "The container used for the full width layout."
@@ -553,7 +551,7 @@ msgstr "Guardar definições"
 #: siteorigin-panels.php:76
 #, fuzzy
 msgid "Custom Home Page Builder"
-msgstr "Página Inicial Personalizada Page Builder"
+msgstr "Página inicial personalizada Page Builder"
 
 #: siteorigin-panels.php:77 siteorigin-panels.php:139
 msgid "Home Page"
@@ -774,20 +772,20 @@ msgstr "Erro ao carregar ou importar ficheiro."
 msgid "Untitled Widget"
 msgstr "Widget sem título"
 
-#: siteorigin-panels.php:906
+#: siteorigin-panels.php:909
 msgid "Read More"
 msgstr "Ler mais"
 
-#: siteorigin-panels.php:1293
+#: siteorigin-panels.php:1296
 msgid "Edit Home Page"
 msgstr "Editar página inicial"
 
-#: siteorigin-panels.php:1385
+#: siteorigin-panels.php:1388
 #, php-format
 msgid "You need to install 1{%1$s} to use the widget 2{%2$s}."
 msgstr "Tem que instalar o 1{%1$s} para usar o widget 2{%2$s}."
 
-#: siteorigin-panels.php:1391
+#: siteorigin-panels.php:1394
 msgid ""
 "Save and reload this page to start using the widget after you've installed "
 "it."
@@ -795,7 +793,7 @@ msgstr ""
 "Guarde e recarregue a página para começar a usar o widget, depois de o ter "
 "instalado."
 
-#: siteorigin-panels.php:1408
+#: siteorigin-panels.php:1411
 #, php-format
 msgid ""
 "The widget 1{%1$s} is not available. Please try locate and install the "
@@ -804,27 +802,25 @@ msgstr ""
 "O widget 1{%1$s} não está disponível. Por favor tente instalar o plugin em "
 "falta. Publique nos 2{fóruns de suporte} se precisar de ajuda."
 
-#: siteorigin-panels.php:1448
+#: siteorigin-panels.php:1451
 msgid "Support Forum"
 msgstr "Fórum de suporte"
 
-#: siteorigin-panels.php:1449
+#: siteorigin-panels.php:1452
 msgid "Newsletter"
 msgstr "Newsletter"
 
-#: siteorigin-panels.php:1464 tpl/js-templates.php:34 tpl/js-templates.php:36
+#: siteorigin-panels.php:1467 tpl/js-templates.php:34 tpl/js-templates.php:36
 msgid "Live Editor"
 msgstr "Editor com pré-visualização"
 
 #: tpl/admin-home-page.php:21
-#, fuzzy
 msgid "On"
-msgstr "On"
+msgstr "Ligado"
 
 #: tpl/admin-home-page.php:21
-#, fuzzy
 msgid "Off"
-msgstr "Off"
+msgstr "Desligado"
 
 #: tpl/admin-home-page.php:25
 msgid "Custom Home Page"
@@ -967,7 +963,7 @@ msgid "Import/Export"
 msgstr "Importar/exportar"
 
 #: tpl/js-templates.php:369
-#, fuzzy, php-format
+#, php-format
 msgid "Clone: %s"
 msgstr "Clonar: %s"
 
@@ -1037,15 +1033,15 @@ msgstr "Expandir"
 
 #: tpl/js-templates.php:520
 msgid "Toggle desktop mode"
-msgstr "Alternar modo de desktop"
+msgstr "Mudar para modo de desktop"
 
 #: tpl/js-templates.php:523
 msgid "Toggle tablet mode"
-msgstr "Alternar modo de tablet"
+msgstr "Mudar para modo de tablet"
 
 #: tpl/js-templates.php:526
 msgid "Toggle mobile mode"
-msgstr "Alternar modo de mobile"
+msgstr "Mudar para modo de mobile"
 
 #: tpl/js-templates.php:565
 msgid "No Results"
@@ -1056,9 +1052,8 @@ msgid "Layout Builder"
 msgstr "Construtor de layout"
 
 #: widgets/basic.php:15
-#, fuzzy
 msgid "A complete SiteOrigin Page Builder layout as a widget."
-msgstr "Um layout SiteOrigin Page Builder completo como um widget."
+msgstr "Um layout completo do SiteOrigin Page Builder como um widget."
 
 #: widgets/basic.php:66
 msgid "Open Builder"
@@ -1104,17 +1099,14 @@ msgid "Your theme doesn't have any post loops."
 msgstr "O seu tema não tem nenhum loop de artigos."
 
 #: widgets/basic.php:385
-#, fuzzy
 msgid "Template"
 msgstr "Modelo"
 
 #: widgets/basic.php:401
-#, fuzzy
-msgid "More Link "
-msgstr "Ligação <em>mais</em>"
+msgid "More Link"
+msgstr "Ligação \"mais\""
 
 #: widgets/basic.php:403
-#, fuzzy
 msgid "If the template supports it, cut posts and display the more link."
 msgstr ""
 "Se o modelo o suportar, corta os artigos e mostra a ligação para ler mais."
@@ -1153,7 +1145,6 @@ msgid "Modified"
 msgstr "Modificado"
 
 #: widgets/basic.php:460 widgets/widgets.php:602
-#, fuzzy
 msgid "Parent"
 msgstr "Superior"
 
@@ -1171,9 +1162,8 @@ msgid "Menu Order"
 msgstr "Ordem do menu"
 
 #: widgets/basic.php:464
-#, fuzzy
 msgid "Post In Order"
-msgstr "Postado em Ordem"
+msgstr ""
 
 #: widgets/basic.php:469 widgets/widgets.php:611
 msgid "Order"
@@ -1346,9 +1336,8 @@ msgid "Animated Image (PB)"
 msgstr "Imagem animada (PB)"
 
 #: widgets/widgets/animated-image/animated-image.php:8
-#, fuzzy
 msgid "An image that animates in when it enters the screen."
-msgstr "Uma imagem que anima quando ele entra na tela."
+msgstr "Uma imagem com uma animação ao entrar no ecrã."
 
 #: widgets/widgets/animated-image/animated-image.php:19
 msgid "Animation"
@@ -1465,22 +1454,18 @@ msgid "Per"
 msgstr "Por"
 
 #: widgets/widgets/price-box/price-box.php:27
-#, fuzzy
 msgid "Information Text"
-msgstr "Informações de texto"
+msgstr "Texto informativo"
 
 #: widgets/widgets/price-box/price-box.php:31
-#, fuzzy
 msgid "Features Text"
 msgstr "Texto das funcionalidades"
 
 #: widgets/widgets/price-box/price-box.php:50
-#, fuzzy
 msgid "Feature List"
 msgstr "Lista de funcionalidades"
 
 #: widgets/widgets/testimonial/testimonial.php:6
-#, fuzzy
 msgid "Testimonial (PB)"
 msgstr "Testemunhos (PB)"
 
@@ -1523,6 +1508,10 @@ msgstr "SiteOrigin"
 #. Author URI of the plugin/theme
 msgid "https://siteorigin.com"
 msgstr "https://siteorigin.com"
+
+#, fuzzy
+#~ msgid "More Link "
+#~ msgstr "Ligação <em>mais</em>"
 
 #~ msgid "Device width, in pixels, to collapse into a tablet view ."
 #~ msgstr ""
